@@ -263,7 +263,10 @@
   .sidenav a.login-res{color: var(--main-color);}
 /*------------header------------*/
 
-.header-section{}
+.header-section{
+  -webkit-box-shadow: 0px 0px 8px 0px rgba(1, 1, 1, 0.1);
+  box-shadow: 0px 0px 8px 0px rgba(1, 1, 1, 0.1);
+}
 .header{
   display: flex;
     align-items: center;
@@ -490,7 +493,7 @@ color: var(--sec-color);
   transform: perspective(1px);
   background-image: url(../images/bg-1.png);
   background-color: var(--main-color);
-  height: 479px;
+  height: auto;
 }
 .faq-flex{
   display: flex
@@ -1114,6 +1117,90 @@ footer {
 .program-photo img {
   border-radius: 25px;
   margin-top: 0px;
+
+}
+}
+/* about-page */
+.about-page{
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding:30px 0 80px;
+  position: relative;
+  -webkit-transform: perspective(1px);
+  transform: perspective(1px);
+  background-image: url(../images/bg-1.png);
+  /* background-color: var(--main-color); */
+  height: auto;
+}
+.about-page-content{}
+.about-page-content h2{
+  text-align: center;
+  font-size: 45px;
+  color: var(--main-color);
+  margin-bottom: 70px;
+  font-weight: 600;
+}
+.about-page-title{
+  background-color: #e5e5e5;
+  padding: 10px 30px;
+  border-radius: 25px;
+  margin-bottom: 20px;}
+.about-page-title h3{
+  font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: var(--text-color);
+    font-family: "alexMd";
+}
+.about-page-title p{
+  color: var(--main-color);
+    font-size: 15px;
+    line-height: 1.9;
+    font-family: "alexMd";
+}
+.about-page-title ul{
+  padding: 0px 20px;
+  font-family: "alexMd";
+  margin-bottom: 25px;
+}
+.about-page-title ul li{
+  color: var(--main-color);
+    font-size: 15px;
+    line-height: 1.9;
+    list-style: arabic-indic;
+}
+.about-page-title ul li::marker {
+  color: #000,;
+}
+.about-page-title span{
+
+  color: var(--sec-color);
+    font-size: 15px;
+    line-height: 1.9;
+    font-weight: 600;
+}
+
+@media (max-width:375px) {
+.about-page-content h2 {
+  text-align: center;
+  font-size: 35px;
+  color: var(--main-color);
+  margin-bottom: 50px;
+  font-weight: 600;
+}
+.about-page {
+
+  padding: 20px 0 30px;
+
+}}
+@media (max-width:375px) {
+  .about-page-content h2 {
+    font-size: 33px;
+    margin-bottom: 35px;
+}
+.about-page-title {
+  padding: 8px 20px;
 
 }
 }
