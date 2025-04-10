@@ -1180,7 +1180,28 @@ footer {
     line-height: 1.9;
     font-weight: 600;
 }
-
+.about-call{display: flex;
+      flex-direction: column;}
+      .about-call a{
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+      }
+      
+      .about-call i{
+        font-size: 22px;
+        color: var(--sec-color);
+      }
+      .about-call span{
+        color: var(--main-color);
+    font-size: 18px;
+    line-height: 1.9;
+    font-weight: 600;
+    direction: ltr;
+    display: inline-block;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+      }
+      .about-call span:hover{color: var(--sec-color);}
 @media (max-width:375px) {
 .about-page-content h2 {
   text-align: center;
