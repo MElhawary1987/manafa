@@ -455,11 +455,11 @@ color: var(--sec-color);
 }
 .program-item-title{padding: 0px 25px;}
 .program-item-title span{
-  font-size: 16px;
+  font-size: 22px;
   font-family: "alexMd";
   color: var(--sec-color);
-  padding-top: 20px;
-    display: inline-block;
+  padding-bottom: 20px;
+  display: inline-block;
 }
 .program-item-title h4{
   font-size: 24px;
